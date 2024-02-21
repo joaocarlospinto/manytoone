@@ -1,0 +1,12 @@
+2024-02-21 12:36:35.169337Z jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "OWNER_DETAILS" not found (this database is empty); SQL statement:
+insert into owner_details (email,name,id) values (?,?,default) [42104-224]
+2024-02-21 12:39:07.858869Z jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2024-02-21 12:39:07.872182Z jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2024-02-21 12:39:07.872182Z jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2024-02-21 12:39:31.137059Z jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM BLOG_DETAILS BLOG_DETAILS [*]OWNER_DETAILS"; SQL statement:
+SELECT * FROM BLOG_DETAILS BLOG_DETAILS OWNER_DETAILS [42000-224]
